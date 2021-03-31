@@ -16,3 +16,8 @@ async def multiply(a: int, b: int):
 @app.get("/substract")
 async def substract(a: int, b: int):
     return 0  # add code here
+
+
+@app.get("/divide")
+async def divide(a: int, b: int):
+    return 0  # add code here
